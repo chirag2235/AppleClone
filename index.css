@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Poppins:ital,wght@0,400;1,300&family=Source+Sans+3:wght@200;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15vh;
+    border: white;
+    padding: 10px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.log1 {
+    height: 50px;
+    width: 100px;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.page1 {
+    display: flex;
+    height: 85vh;
+    color: #fff;
+    align-items: center;
+}
+
+.page1left {
+    margin: 40px;
+}
+
+.p1txt {
+    font-size: 70px;
+}
+
+.page1right {
+    overflow-x: hidden;
+}
+
+.page2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffffcb;
+}
+
+.p2 {
+    border: 10px solid black;
+    margin-top: 80px;
+}
+
+.page2txt {
+    color: rgba(0, 0, 0, 0.534);
+    height: 25vh;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+.cardimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.car {
+    color: rgba(255, 255, 255, 0.886);
+    background-color: black;
+    border-radius: 10%;
+    padding: 4px;
+    height: 400px;
+    width: 100px;
+}
+
+.c1 {
+    margin-left: 30px;
+}
+
+.page3 {
+    height: 100vh;
+}
+
+.page3txt {
+    font-size: 35px;
+    font-weight: 200;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.page3os {
+    margin-top: 100px;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.lockpara {
+    width: 330px;
+    margin: 0 50px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.pageRetina {
+    text-align: center;
+}
+
+#ret {
+    width: 400px;
+    margin-left: 400px;
+    color: whitesmoke;
+}
+
+.hand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+#handtxt {
+    margin: 20px 0;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.sh {
+    margin: 0;
+    text-align: center;
+}
+
+.shld {
+    width: 250px;
+}
+
+.last {
+    width: 90%;
+    height: auto;
+    margin: 5vw auto;
+}
+
+.smoky {
+    color: rgba(128, 128, 128, 0.92);
+    font-weight: 700;
+}
+
+a:hover {
+    border-bottom: solid;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    .page1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .page1left, .page1right {
+        margin: 20px;
+    }
+
+    .page1right video {
+        width: 100%;
+        height: auto;
+    }
+
+    .cardimg {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page3os {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .page3os img {
+        margin: 20px 0;
+        width: 90%;
+    }
+
+    .lockpara {
+        width: auto;
+        margin: 20px 0;
+    }
+
+    #ret {
+        width: auto;
+        margin: 20px auto;
+    }
+
+    .hand {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #handtxt {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .sh {
+        margin: 20px 0;
+    }
+
+    .shld {
+        width: auto;
+        margin: 20px auto;
+    }
+
+    .last {
+        width: 90%;
+        height: auto;
+        margin: 5vw auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    .page1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .page1left, .page1right {
+        margin: 20px;
+    }
+
+    .page1right video {
+        width: 100%;
+        height: auto;
+    }
+
+    .cardimg {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page3os {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .page3os img {
+        margin: 20px 0;
+        width: 90%;
+    }
+
+    .lockpara {
+        width: auto;
+        margin: 20px 0;
+    }
+
+    #ret {
+        width: auto;
+        margin: 20px auto;
+    }
+
+    .hand {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #handtxt {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .sh {
+        margin: 20px 0;
+    }
+
+    .shld {
+        width: auto;
+        margin: 20px auto;
+    }
+
+    .last {
+        width: 90%;
+        height: auto;
+        margin: 5vw auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .p1txt {
+        font-size: 40px;
+    }
+
+    .lockpara {
+        font-size: 16px;
+    }
+}

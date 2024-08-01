@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header>
+    <a href="#" class="logo"><img src="Images/lo.svg" alt="Logo" class="log1"></a>
+    <nav class="navbar">
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#blog">Blog</a>
+        <a href="#support">Support</a>
+        <a href="login.html">Login</a>
+        <button class="navbar-toggler" onclick="toggleMenu()">☰</button>
+    </nav>
+</header>
+<div class="page1" id="about">
+    <div class="page1left" data-aos="zoom-in" data-aos-duration="2000">
+        <h1 class="p1txt">
+            <span style="font-weight: 700; font-size: 70px;">iPhone 14 Pro</span>
+        </h1>
+        <h2>Where Luxury meets Technology</h2>
+    </div>
+    <div class="page1right">
+        <video style="height: 80vh;" id="video" autoplay muted loop>
+            <source src="Images/fr.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+<div class="page2" id="products">
+    <div class="page2txt">
+        <br/>
+        <h1>Designed to make a difference.</h1>
+    </div>
+    <div class="cardimg">
+        <div class="car" class="card" style="width: 18rem;" data-aos="zoom-in-down" data-aos-duration="2000">
+            <img src="Images/log1.jpg" style="height: 60px; margin-left: 150px; margin-top: 15px;">
+            <br><br><br>
+            <div class="c1">
+                <h3>Recycling,<br> reimagined.</h3>
+                <p>See how iPhone reuses materials to conserve resources</p>
+            </div>
+        </div>
+        <div class="car" style="width: 18rem;" class="card" data-aos="zoom-in-down" data-aos-duration="2000">
+            <img src="Images/log2.jpg" style="height: 50px; margin-left: 150px; margin-top: 30px;">
+            <div class="c1">
+                <br><br>
+                <h3>Privacy.<br/>
+                    That’s iPhone.</h3>
+                <p>Check out the latest privacy features for iPhone</p>
+            </div>
+        </div>
+        <div class="car" style="width: 18rem;" class="card" data-aos="zoom-in-down" data-aos-duration="2000">
+            <img src="Images/log3.jpg" style="height: 60px; margin-left: 120px; margin-top: 20px;">
+            <br><br><br>
+            <div class="c1">
+                <h3>iPhone<br/>
+                    for all.</h3>
+                <p>Discover helpful accessibility features like VoiceOver</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="page3" id="pricing">
+    <div class="page3txt" data-aos="zoom-in" data-aos-duration="2000">
+        <br><br>
+        Always-On display.<br>
+        A subtle way to stay in the know.
+    </div>
+    <div class="page3os">
+        <img src="Images/lock-screen.jpg" style="height: 90vh; margin-left: 350px;" data-aos="fade-right" data-aos-duration="2000">
+        <p class="lockpara" data-aos="fade-left" data-aos-duration="2000">
+            <br/><br/>
+            <span class="smoky">With iOS 16, your personalised Lock Screen is</span> always glanceable,<span class="smoky"> so you don’t have to tap to see your favourite widgets like Weather, Calendar or Lunar Phase.</span><br><br/>
+            <span class="smoky">When iPhone 14 Pro is turned face down or in your pocket,</span> it goes dark to save battery life.
+        </p>
+    </div>
+    <br/><br/><br/><br/><br/><br/>
+    <div class="pageRetina">
+        <img src="Images/super-retina.jpg" style="height: 400px; width: 800px;" data-aos="zoom-in" data-aos-duration="2000">
+        <br/><br/><br/><br/>
+        <p id="ret" data-aos="zoom-in" data-aos-duration="2000"><span class="smoky">The Super Retina XDR display is </span>up to 2x brighter in the sun, <span class="smoky">so text jumps off the screen — even in direct sunlight.</span>
+        </p>
+    </div>
+
+    <br/><br/><br/>
+    <div class="hand">
+        <p id="handtxt" data-aos="zoom-in" data-aos-duration="2000"><span style="font-weight: 500; font-size: 30px;">Promotion technology </span><br/><span class="smoky"> Ramps up refresh rates when you need exceptional graphics performance. And ramps down to save power when you don’t.</span></p>
+        <img src="Images/hand.jpg" style="height: 500px;" data-aos="zoom-in" data-aos-duration="2000">
+    </div>
+    <div class="sh" style="color: whitesmoke;">
+        <p style="font-size:30px;" data-aos="zoom-in" data-aos-duration="2000"> Ceramic Shield</p>
+
+        <h3 style="font-size:40px; width: 600px;" class="shield" data-aos="zoom-in" data-aos-duration="2000">Tougher than any smartphone glass.</h3>
+        <div style="display: flex; justify-content: center; margin-top: 50px;" data-aos="zoom-in" data-aos-duration="2000">
+            <p class="shld" style="margin-right: 200px;"><span class="smoky"> Crystals — which are harder than most metals — are fused into glass for</span> far greater durability.</p>
+            <p class="shld"><span class="smoky"> Dual-ion exchange process also</span> protects against nicks, scratches,
+                and everyday wear and tear.</p>
+        </div>
+    </div>
+    <div>
+        <img class="last" src="Images/lastimg.jpg" alt="iPhone" data-aos="zoom-in" data-aos-duration="2000">
+    </div>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-white text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <div>
+                <a href="#" class="me-4 link-secondary">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="me-4 link-secondary">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="me-4 link-secondary">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="#" class="me-4 link-secondary">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="me-4 link-secondary">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="me-4 link-secondary">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </section>
+
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" style="text-decoration: none;">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset" style="text-decoration: none;">iPhone</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset" style="text-decoration: none;">Mac</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset" style="text-decoration: none;">iPad</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset" style="text-decoration: none;">AirPods</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset" style="text-decoration: none;">Pricing</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset" style="text-decoration: none;">Settings</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset" style="text-decoration: none;">Orders</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset" style="text-decoration: none;">Help</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+                        <p>
+                            <i class="fas fa-envelope me-3 text-secondary"></i>
+                            info@example.com
+                        </p>
+                        <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+            © 2023 Copyright:
+            <a class="text-reset fw-bold" href="https://www.apple.com/" style="text-decoration: none;">apple.com</a>
+        </div>
+    </footer>
+</div>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script>
+    // Initialize AOS
+    AOS.init();
+
+    // Smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    // Toggle mobile menu
+    function toggleMenu() {
+        document.querySelector('.navbar').classList.toggle('active');
+    }
+
+    // Handle video play/pause on hover
+    const video = document.getElementById('video');
+    video.addEventListener('mouseover', () => video.play());
+    video.addEventListener('mouseout', () => video.pause());
+</script>
+</body>
+</html>
